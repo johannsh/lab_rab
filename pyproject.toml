@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "parser"
+version = "0.1.0"
+description = ""
+authors = ["Ivan Shiryaev <johannshiryaev@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+bs4 = "^0.0.2"
+requests = "^2.32.3"
+beautifulsoup4 = "^4.12.3"
+validators = "^0.34.0"
+asyncio = "^3.4.3"
+aiohttp = "^3.10.10"
+isort = "^5.13.2"
+sqlalchemy = "^2.0.35"
+aiosqlite = "^0.20.0"
+asyncpg = "^0.29.0"
+bandit = "^1.7.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
