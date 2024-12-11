@@ -1,0 +1,11 @@
+targets: 
+  - parser.py
+select:
+  - B101
+  - B102
+  - B104
+  - B105
+skip:
+severity:
+confidence:
+  - high

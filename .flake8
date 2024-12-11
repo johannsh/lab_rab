@@ -1,0 +1,6 @@
+[flake8]
+max-line-length = 79
+select = B101, B102, B103, B104, B105, B106, B107, B108, B110, B112
+ignore = E501,W503
+output-file = flake8_report.txt
+
