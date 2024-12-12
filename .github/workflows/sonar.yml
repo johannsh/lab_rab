@@ -21,7 +21,7 @@ jobs:
         SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
       run: |
         sonar-scanner.bat \
-          -Dsonar.projectKey="YOUR_PROJECT_KEY" \
-          -Dsonar.organization="YOUR_ORGANIZATION" \
+          -Dsonar.projectKey=johannsh_lab_rab \
+          -Dsonar.organization=johannsh \
           -Dsonar.host.url="https://sonarcloud.io"
 
