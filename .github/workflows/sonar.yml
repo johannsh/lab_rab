@@ -20,7 +20,7 @@ jobs:
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
         with:
           args: >
-            -Dsonar.projectKey=ONID
+            -Dsonar.projectKey=johannsh_lab_rab_ed478701-9e5e-452b-b54f-b253ef22d20d
             -Dsonar.host.url=http://localhost:9000/
 
 
