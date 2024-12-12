@@ -1,4 +1,6 @@
 {
-    "sonarCloudOrganization": "johannsh",
-    "projectKey": "johannsh_lab_rab"
-}
+    "sonarQubeServer": "http://localhost:9000",
+    "projectKey": "johannsh_lab_rab_ed478701-9e5e-452b-b54f-b253ef22d20d", 
+    "organization": "johannsh"
+  }
+  
